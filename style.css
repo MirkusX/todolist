@@ -1,0 +1,82 @@
+body {
+    background: #202124;
+    font-family: sans-serif;
+}
+
+li {
+    list-style-type: none;
+    color: lightgreen;
+    background: #4d4f53;
+    border-radius: 0.5em;
+    word-break: break-all;
+    margin: 1em;
+    display: block;
+}
+
+section {
+    width: 40%;
+    margin: 0 auto;
+    min-width: 600px;
+}
+
+button, input, li, #todoContainer {
+    padding: 1em;
+}
+
+.show {
+    display: block;
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+#todoContainer {
+    background: #6c6e71;
+    width: 100%;
+    margin-top: 1em;
+    min-width: 10%;
+}
+
+p, span {
+    opacity: 0.5;
+}
+
+li:hover {
+    background: red;
+}
+
+li:hover::after {
+    content: "Delete?";
+    color: black;
+}
+
+button {
+    background: lightgreen;
+    border: none;
+    border-radius: .3em;
+}
+
+input {
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input, button, li:hover::after {
+    font-weight: bold;
+}
+
+li, button {
+    cursor: pointer;
+}
+
+span {
+    margin-right: 1em;
+}
