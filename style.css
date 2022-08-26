@@ -34,9 +34,8 @@ button, input, li, #todoContainer {
 
 #todoContainer {
     background: #6c6e71;
-    width: 100%;
     margin-top: 1em;
-    min-width: 10%;
+    border-radius: 3px;
 }
 
 p, span {
